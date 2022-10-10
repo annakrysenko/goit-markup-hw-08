@@ -415,29 +415,25 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  .footer {
-    padding-left: 61px;
-    padding-right: 74px;
-  }
   .footer-container {
     flex-direction: row;
     row-gap: 60px;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-left: 76px;
+    padding-right: 89px;
   }
   .footer-form {
     width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
   .footer-container {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .footer-form {
     margin-left: auto;
