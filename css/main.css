@@ -423,9 +423,6 @@ body {
     padding-left: 76px;
     padding-right: 89px;
   }
-  .footer-form {
-    width: 450px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .footer-container {
@@ -455,7 +452,6 @@ body {
   .footer__form {
     flex-direction: row;
     column-gap: 12px;
-    justify-content: flex-end;
   }
   .footer-form-btn {
     margin: inherit;

@@ -26,6 +26,8 @@
       row-gap: 9px;
     }
 
+
+
     &-list-link {
       color: rgba(255, 255, 255, 0.6);
     }
@@ -194,27 +196,17 @@
 
 
 @media screen and (min-width: 768px)  {
-
   .footer-container {
       flex-direction: row;
       row-gap: 60px;
       flex-wrap: wrap;
       justify-content: space-between;
       padding-left: 76px;
-    padding-right: 89px;
-    }
-    
-    
-
-    .footer-form {
-      width: 450px;
-    }
-  }
-
+      padding-right: 89px;
+    } 
+}
 
 @media screen and (min-width: 1200px) {
-  
-
    .footer-container {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -224,10 +216,11 @@
 
    }
 
-    .footer-form {
-       margin-left: auto;
-       margin-top: 12px;
-     }
+  .footer-form {
+    margin-left: auto;
+    margin-top: 12px;
+    
+  }
 
 
    .footer-contacts {
@@ -252,7 +245,6 @@
   .footer__form {
     flex-direction: row;
     column-gap: 12px;
-    justify-content: flex-end;
    
   }
 
