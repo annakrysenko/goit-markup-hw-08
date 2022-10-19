@@ -179,6 +179,10 @@
   .footer-title {
     text-align: center;
   }
+
+  .footer-form{
+    width: 450px;
+  }
 }
 
 @media screen and (max-width: 767.5px){
@@ -190,6 +194,10 @@
 
   .footer-contacts {
     align-items: center;
+  }
+
+  .footer-form{
+    width: 100%;
   }
 }
 
